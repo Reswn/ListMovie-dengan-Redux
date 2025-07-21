@@ -63,7 +63,7 @@ Ini adalah proyek latihan **Tugas JDA ke-6** dengan menggunakan **Redux Toolkit*
 
 ## 📝 Catatan Tambahan
 
-Proyek ini bertujuan untuk memahami cara kerja Redux Toolkit dalam mengelola state global pada aplikasi React. Dengan fitur sederhana seperti menambahkan dan menghapus film dari daftar, kamu bisa mempelajari konsep dasar Redux secara langsung dalam konteks nyata.
+Proyek ini bertujuan untuk memahami cara kerja Redux Toolkit dalam mengelola state global pada aplikasi React. Dengan fitur sederhana seperti menambahkan  film ke daftar, bisa mempelajari konsep dasar Redux secara langsung dalam konteks nyata.
 
 ---
 
