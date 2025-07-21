@@ -1,12 +1,73 @@
-# React + Vite
+# 🎬 Movie List App — Redux Toolkit (Tugas JDA 6)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah proyek latihan **Tugas JDA ke-6** dengan menggunakan **Redux Toolkit** untuk mengelola daftar film favorit.
+---
 
-Currently, two official plugins are available:
+## 📚 Fitur yang Dipelajari
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔧 Dasar Redux Toolkit  
+- 📦 Setup store & slice  
+- 🔄 Reducer dan action  
+- 🚀 Penggunaan hooks: `useSelector` dan `useDispatch`  
+- 🧠 Manajemen state global menggunakan Redux  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂️ Struktur Folder
+
+```
+/src
+  /components
+    MovieList.js      # Komponen untuk menampilkan & menghapus film
+    MovieInput.js     # Komponen untuk menambahkan film baru
+  movieSlice.js       # Slice Redux untuk film
+  store.js            # Setup store Redux
+  App.jsx             # Komponen utama
+  index.jsx            # Entry point React
+  App.css              # Komponen utama
+  index.css            # Entry point React
+  main.jsx             # Entry point React
+
+
+```
+
+---
+
+## 🛠️ Instalasi
+
+1. **Clone repository ini**:  
+   ```
+   git clone https://github.com/Reswn/ListMovie-dengan-Redux.git
+   ```
+
+2. Masuk ke folder proyek:
+   ```bash
+   cd ListMovie-dengan-Redux
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Jalankan development server:
+   ```bash
+   npm start
+   ```
+   atau jika menggunakan Vite:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📝 Catatan Tambahan
+
+Proyek ini bertujuan untuk memahami cara kerja Redux Toolkit dalam mengelola state global pada aplikasi React. Dengan fitur sederhana seperti menambahkan dan menghapus film dari daftar, kamu bisa mempelajari konsep dasar Redux secara langsung dalam konteks nyata.
+
+---
+
+## 🧑‍💻 Dibuat untuk Tugas JDA 6 oleh:
+-Reni Kartika Suwandi
+
+---
