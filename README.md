@@ -2,6 +2,8 @@
 
 Ini adalah proyek latihan **Tugas JDA ke-6** dengan menggunakan **Redux Toolkit** untuk mengelola daftar film favorit.
 ---
+### DEMO 
+https://list-movie-dengan-redux.vercel.app/
 
 ## 📚 Fitur yang Dipelajari
 
